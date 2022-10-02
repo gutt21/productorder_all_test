@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<define name="akash guttedar">
+				<include name="akash" />
+				<include name="khadar" />
+			</define>
+			<run>
+				<include name="akash guttedar" />
+			</run>
+		</groups>
+		<classes>
+			<class name="grouptestng.grouptestclass2" />
+			<class name="grouptestng.grouptestclass" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
